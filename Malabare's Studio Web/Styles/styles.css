@@ -1,0 +1,119 @@
+/* ////////// BODY - HEADER - NAV /////////*/
+body{
+  background-size: 100%;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+/* header{} */
+header p{
+  font-size: 2cm;
+  margin: 0%;
+}
+nav{
+  font-size: 0.4cm;
+  margin: 0%;
+}
+
+/* ////////// FONT COLORS ////////// */
+h3{color: black;}
+h4{color: black;}
+h6{color: black;}
+p{ color: black;}
+footer{color: black;}
+/* ////////// FONT SIZES ////////// */
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.5em;}
+h3{ font-size: 1.5em;}
+p{ font-size: 2em;}
+/* Font Alignment */
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}
+h4 {text-align: center;}
+h5 {text-align: center;}
+h6 {text-align: center;}
+p {text-align: center;}
+ul {text-align: center;}
+
+/* ////////////// MISC. ///////////// */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+form {
+  text-align: center;
+}
+mark {
+  background-color: white;
+}
+
+/* ////////// BUTTONS////////// */
+button{
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  color: black;
+  background-color: #2196F3;
+  animation: glowing 1300ms infinite;
+}
+button:hover{
+  background-color: rgb(177, 91, 82);
+}
+
+/* Button head */
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+}
+a:active {
+  color: lightslategrey;
+  background-color: transparent;
+}
+
+/* ////////// Nuestros Estilo ////////// */
+
+#nuestros-estilos h3{
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 100%;
+  margin: 10px;
+}
+
+/* //////////////MORE///////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
